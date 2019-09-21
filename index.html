@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./img/vista-lateral-de-silueta-de-pan.png" type="icon">
     <title>Bread</title>
+    <link href=“https://fonts.googleapis.com/icon?family=Material+Icons” rel=“stylesheet”>
     <link rel="stylesheet" href="bulma-0.7.4/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
@@ -19,10 +20,52 @@
     .columns:nth-child(2)
     {margin-top: -10rem;}
     </style> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <section id="Color" class="hero is-info is-small">
+        <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./img/pastel.jpeg " class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1  class="has-text-info">First slide label</h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/bul.jpeg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1 class="has-text-warning">Second slide label</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/pexels-photo-209403.jpeg"  class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1  class="has-text-danger">Third slide label</h1>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions"  role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions"  role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+    <!-- <section id="Color" class="hero is-info is-small">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title has-text-black">
@@ -33,72 +76,134 @@
                 </h2>
             </div>
         </div>
-    </section>
+    </section> -->
     <div class="box cta">
         <p class="has-text-centered">
             <span class="tag is-danger">New</span> A bakery made for the comfort of your home.</p>
     </div>
 
 
-    <!-- ==============================================Presentación========================================= -->
+    <!-- ==============================================History========================================= -->
+
+    <div class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcenterred">
+                    <div class="column">
+                        <h1 id="alinear" class="title has-text-centered"> A bakery with history</h1>
+                        <hr>
+                        <p id="ali">
+                            <h2 class="subtitle">The bread of always, a tradition and modernity in which to make daily
+                            </h2>
+                            There is almost no testimony of wood furnaces and furnaces, except in the memory of the
+                            founder of one of the most rooted local companies, Valentina Granada, known as "La
+                            ingeniosa". The business
+                            that began in 1947 with great effort, has consolidated in the market. He is a child, heir to
+                            the family
+                            business, he faces the future with the latest advances in technology and facilities.
+                        </p>
+
+                        <a href="history.html"><span id="hvr-radial-out"
+                                class="button is-link is-fullwidth modal-button">Know more about us
+                            </span></a>
+                    </div>
+                    <div class="column is-6">
+                        <img src="./img/bread5.jpeg" alt="bread">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- =================================================Recommendation======================================= -->
+
+    <div class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div id="recomendado" class="columns is-vcenterred">
+                    <div class="column is-11">
+                        <h1  class="title has-text-grey">Recommended for you</h1>
+                    </div>
+                    <div class="column">
+                        <p class="control has-icons-left has-icons-right">
+                            <span class="icon is-small is-left" style="color:#00000048;">
+                                <i class="material-icons">
+                                    expand_more
+                                </i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
     <section class="container">
-            <div class="columns features">
-                    <div id="hvr-bounce-in" class="column is-4">
-                        <div class="card is-shady">
-                            <div class="card-image">
-                                <figure class="image is-4by3">
-                                    <img src="./img/buffe2.jpeg" alt="butterfly image" class="modal-button"
-                                        data-target="modal-image4">
-                                </figure>
-                            </div>
-                            <div class="card-content  modal-button" data-target="modal-card2">
-                                <div class="content">
-                                    <h4 class="has-text-centered is-size-1">Buffe</h4>
-                                    <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
-                                        Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
-                                    <a href="buffe.html"><span class="button is-link is-fullwidth modal-button">Buffe</span></a>
-                                </div>
-                            </div>
-                        </div>
+        <div class="columns features">
+            <div id="hvr-bounce-in" class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./img/buffe2.jpeg" alt="butterfly image" class="modal-button"
+                                data-target="modal-image4">
+                        </figure>
                     </div>
-                    <div id="hvr-bounce-in" class="column is-4 modal-button" data-target="modal-card">
-                        <div class="card is-shady">
-                            <div class="card-image">
-                                <figure class="image is-4by3">
-                                    <img src="./img/break2.jpg" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="content">
-                                    <h4 class="has-text-centered is-size-1">Bread</h4>
-                                    <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
-                                        Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac
-                                        ut consequat semper viverra nam.</p>
-                                    <a href="bread.html"><span class="button is-link is-fullwidth modal-button">Bread</span></a> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div id="hvr-bounce-in" class="column is-4">
-                        <div class="card is-shady">
-                            <div class="card-image">
-                                <figure class="image is-4by3">
-                                    <img src="./img/cakes2.jpeg" alt="butterfly image" class="modal-button"
-                                        data-target="modal-image4">
-                                </figure>
-                            </div>
-                            <div class="card-content  modal-button" data-target="modal-card2">
-                                <div class="content">
-                                    <h4 class="has-text-centered is-size-1">Cakes</h4>
-                                    <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
-                                        Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
-                                    <a href="cakes.html"><span class="button is-link is-fullwidth modal-button">Cakes</span></a>
-                                </div>
-                            </div>
+                    <div class="card-content  modal-button" data-target="modal-card2">
+                        <div class="content">
+                            <h4 class="has-text-centered is-size-1">Buffe</h4>
+                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
+                                Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
+                            <a href="buffe.html"><span class="button is-link is-fullwidth modal-button">Buffe</span></a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="hvr-bounce-in" class="column is-4 modal-button" data-target="modal-card">
+                <div class="card is-shady">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./img/break2.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4 class="has-text-centered is-size-1">Bread</h4>
+                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
+                                Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac
+                                ut consequat semper viverra nam.</p>
+                            <a href="bread.html"><span class="button is-link is-fullwidth modal-button">Bread</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="hvr-bounce-in" class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./img/cakes2.jpeg" alt="butterfly image" class="modal-button"
+                                data-target="modal-image4">
+                        </figure>
+                    </div>
+                    <div class="card-content  modal-button" data-target="modal-card2">
+                        <div class="content">
+                            <h4 class="has-text-centered is-size-1">Cakes</h4>
+                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
+                                Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
+                            <a href="cakes.html"><span class="button is-link is-fullwidth modal-button">Cakes</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="columns features">
             <div id="hvr-bounce-in" class="column is-4">
                 <div class="card is-shady">
@@ -224,6 +329,9 @@
             </div>
         </div>
     </section>
+
+
+
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
@@ -243,7 +351,7 @@
                 /
                 <a href="#">bread tricks</a>
                 /
-                <a href="blog.html">Blog</a>
+                <a href="history.html">History</a>
                 <br>
             </p>
         </div>
@@ -253,7 +361,9 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 
